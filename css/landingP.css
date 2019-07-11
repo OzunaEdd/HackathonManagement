@@ -1,0 +1,86 @@
+.text-center {
+  text-align: center;
+}
+
+#home {
+  background     : url("../img/arduino.jpeg") no-repeat fixed;
+  background-size: cover;
+  min-height     : 450px;
+  position       : relative;
+}
+
+.home-text {
+  color: #fff;
+}
+
+.bg-color {
+  background-color: rgba(166, 171, 173,.7);
+}
+
+.white {
+  color: #fff;
+}
+
+.home-info {
+  padding-top : 100px;
+  padding-left: 430px;
+  padding-top : 200px;
+}
+
+.home-text h1 {
+  font-family   : sans-serif;
+  font-size     : 35px;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+}
+
+.home-logo {
+  padding-bottom: 30px;
+}
+
+.banner-text {
+  padding-top: 30px;
+}
+
+.btn-appoint {
+  margin-top      : 10px;
+  padding         : 20px 30px;
+  font-size       : 40px;
+  background-color: black;
+  border-radius   : 3px;
+  color           : #fff;
+}
+
+.section-padding {
+  padding: 60px;
+}
+
+#about {
+  background-color: #009ad1;
+}
+
+#contact {
+  background-color: #009ad1;
+}
+
+.page-footer {
+  background-color: black;
+}
+
+.f-icon {
+  padding-right: 200px;
+  padding-top  : 10px;
+}
+
+ul li a {
+  font-weight: bold;
+}
+
+.application-body {
+    margin-right: 220px;
+}
+
+.img-box {
+    margin-left: 20px;
+    border: 1px solid black;
+}
