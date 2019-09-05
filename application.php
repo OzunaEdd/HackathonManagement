@@ -1,6 +1,6 @@
 <?php
 session_start();
-$dbc = mysqli_connect("localhost", "root", "", "csc350") or die(mysql_error()); //connect to server
+$dbc = mysqli_connect("m7nj9dclezfq7ax1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com", "ew33q2sqesuu10bz", "u7uhn2d28ofq7vn8", "c0a4ao6srswkd8yd") or die(mysql_error());//connect to server
         $data = "SELECT * FROM HackathonInfo";
         $result = mysqli_query($dbc,$data);
         $info = mysqli_fetch_assoc($result);
